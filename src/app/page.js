@@ -138,7 +138,7 @@ const VENUES = [
     statusLabel: "Match Live",
     accent: "#29CC7A",
     tags: ["ICC Partner", "T20 Capable"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wankhede_Stadium%2C_Mumbai.jpg",
   },
   {
     id: "eden",
@@ -149,7 +149,7 @@ const VENUES = [
     statusLabel: "Tomorrow 7 PM",
     accent: "#0EFFE4",
     tags: ["Largest in India", "T20I Venue"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wankhede_Stadium%2C_Mumbai.jpg",
   },
 ];
 
@@ -163,7 +163,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 24",
     accent: "#D5FF5C",
     tags: ["World's Largest", "Day-Night"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wankhede_Stadium%2C_Mumbai.jpg",
   },
   {
     id: "chepauk",
@@ -174,7 +174,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 28",
     accent: "#FF4141",
     tags: ["Historic Ground", "Test Venue"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wankhede_Stadium%2C_Mumbai.jpg",
   },
 ];
 
@@ -250,11 +250,14 @@ function VenueCard({ venue }) {
           width={800}
           height={400}
           unoptimized
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
           style={{
             width: "100%", height: "100%",
             objectFit: "cover",
             display: "block",
             filter: "brightness(0.75)",
+            backgroundColor: "var(--bg-tertiary)",
           }}
         />
         {/* Gradient scrim */}
