@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 /* ─────────────────────────────────────────────────────────────────
    MINI SVG ILLUSTRATIONS
@@ -243,9 +244,12 @@ function VenueCard({ venue }) {
     >
       {/* Image header */}
       <div style={{ position: "relative", height: 140, overflow: "hidden" }}>
-        <img
+        <Image
           src={venue.image}
           alt={venue.name}
+          width={800}
+          height={400}
+          unoptimized
           style={{
             width: "100%", height: "100%",
             objectFit: "cover",
