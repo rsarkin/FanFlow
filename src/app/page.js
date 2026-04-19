@@ -148,7 +148,7 @@ const VENUES = [
     statusLabel: "Tomorrow 7 PM",
     accent: "#0EFFE4",
     tags: ["Largest in India", "T20I Venue"],
-    image: "https://images.unsplash.com/photo-1562077772-3bd90403f7f0?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
   },
 ];
 
@@ -162,7 +162,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 24",
     accent: "#D5FF5C",
     tags: ["World's Largest", "Day-Night"],
-    image: "https://images.unsplash.com/photo-1594470117722-de4d9a304e25?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
   },
   {
     id: "chepauk",
@@ -173,7 +173,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 28",
     accent: "#FF4141",
     tags: ["Historic Ground", "Test Venue"],
-    image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
   },
 ];
 
