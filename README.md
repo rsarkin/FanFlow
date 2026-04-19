@@ -43,7 +43,7 @@ Using simulated "Crowd Density" sensors, the app calculates the fastest route to
 ## 📎 Assumptions & Real-World Considerations
 
 1. **Simulated Data**: For the purpose of this demonstration, stadium crowd density and match events are simulated via a 13.5-second logic loop to showcase the Assistant's responsiveness.
-2. **Location Accuracy**: It is assumed the user has GPS enabled. In a production environment, this would integrate with Bluetooth Beacons or Wi-Fi triangulation for precise indoor positioning.
+2. **Location & Connectivity (Bluetooth Mesh)**: The application is architected to support **Bluetooth Mesh** and BLE Beacon technology. In a stadium's "dead zone" (where 5G is congested), FanFlow can utilize a mesh of low-power nodes to deliver notifications and sub-meter positioning without relying on centralized cellular networks.
 3. **Connectivity**: While designed as a PWA for resilience, the app assumes a "data-light" environment, prioritizing minimal transfer sizes to function on overloaded 5G/LTE networks.
 4. **Google Services**: The app is designed with Google Maps API integration in mind for broader venue navigation, though currently uses a custom SVG-based high-performance map for specific stadium interiors.
 
