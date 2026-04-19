@@ -137,7 +137,7 @@ const VENUES = [
     statusLabel: "Match Live",
     accent: "#29CC7A",
     tags: ["ICC Partner", "T20 Capable"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "eden",
@@ -148,7 +148,7 @@ const VENUES = [
     statusLabel: "Tomorrow 7 PM",
     accent: "#0EFFE4",
     tags: ["Largest in India", "T20I Venue"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
   },
 ];
 
@@ -162,7 +162,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 24",
     accent: "#D5FF5C",
     tags: ["World's Largest", "Day-Night"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "chepauk",
@@ -173,7 +173,7 @@ const EXTRA_VENUES = [
     statusLabel: "Apr 28",
     accent: "#FF4141",
     tags: ["Historic Ground", "Test Venue"],
-    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540744158913-91185590c6ca?q=80&w=800&auto=format&fit=crop",
   },
 ];
 
